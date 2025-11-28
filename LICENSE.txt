@@ -1,4 +1,4 @@
-EQUIFORMERV2 MOLECULAR DYNAMICS GRAPH CONVERTER
+MOLECULAR DYNAMICS GRAPH CONVERTER (compatible with classic GNNs and EquiformerV2)
 Copyright (c) 2025 Fodil Azzaz
 
 ACADEMIC LICENSE
@@ -17,5 +17,6 @@ ACADEMIC LICENSE
 CITATION:
 If you use this software in your research, please cite:
 [Your Paper Reference - Coming Soon]
+
 
 This license ensures open academic collaboration while protecting commercial rights.
