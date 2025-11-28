@@ -29,7 +29,7 @@ Node Features (13 Dimensions)
 6. Backbone indicator
 
 7. Sidechain indicator
-8-13. Molecular segment encoding (PROA, PROB, GLIP, GLIZ, POPC, CHL1)
+8-13. Molecular segment encoding (PROA, PROB, GLIP, GLIZ, POPC, CHL1(This is for Charmm36m force field, may vary according to others force field))
 
 Edge Features
 
