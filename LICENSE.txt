@@ -1,0 +1,21 @@
+EQUIFORMERV2 MOLECULAR DYNAMICS GRAPH CONVERTER
+Copyright (c) 2025 Fodil Azzaz
+
+ACADEMIC LICENSE
+================
+✅ PERMITTED:
+- Academic research and teaching
+- Non-commercial scientific use
+- Modification and distribution with attribution
+- Integration into research pipelines
+- Publication using this software
+
+🚫 COMMERCIAL USE:
+- Commercial use requires authorization
+- Contact: azzaz.fodil@gmail.com
+
+CITATION:
+If you use this software in your research, please cite:
+[Your Paper Reference - Coming Soon]
+
+This license ensures open academic collaboration while protecting commercial rights.
