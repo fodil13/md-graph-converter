@@ -17,8 +17,9 @@ ACADEMIC LICENSE
 
 CITATION:
 If you use this software in your research, please cite:
-[Your Paper Reference - Coming Soon]
+[ Coming Soon]
 
 COMMERCIAL LICENSING:
 For commercial licensing inquiries, contact: azzaz.fodil@gmail.com
+
 
