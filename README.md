@@ -9,8 +9,8 @@ Convert MD simulation frames into **universal graphs** compatible with **both Eq
 
 ## Why Researchers Choose This Converter
 
-| Feature | Our Converter | Typical Alternatives |
-|---------|---------------|---------------------|
+| Feature | Our Converter | 
+|---------|---------------|
 | **Dual Architecture Support** | ✅ EquiformerV2 + Classic GNNs 
 | **13D Feature Engineering** | ✅ Charge, mass, hydrophobicity, etc. 
 | **Non-covalent Edges** | ✅ KD-tree optimized interfaces 
