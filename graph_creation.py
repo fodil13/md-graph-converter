@@ -2,7 +2,7 @@
 
 """
 Molecular Dynamics Graph Converter
-Copyright (c) 2025 Fodil Azzaz - All Rights Reserved
+Copyright (c) 2025 Fodil Azzaz, PhD - All Rights Reserved
 Non-commercial use only
 
 Converts MD simulation frames into EquiformerV2-compatible graphs
@@ -658,6 +658,7 @@ if __name__ == "__main__":
         num_frames=1, #total frame you want to convert into graphs
         frame_step=1 #frames you want to skip
     )
+
 
 
 
