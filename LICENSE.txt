@@ -3,20 +3,22 @@ Copyright (c) 2025 Fodil Azzaz
 
 ACADEMIC LICENSE
 ================
-✅ PERMITTED:
+✅PERMITTED:
 - Academic research and teaching
 - Non-commercial scientific use
 - Modification and distribution with attribution
 - Integration into research pipelines
 - Publication using this software
 
-🚫 COMMERCIAL USE:
-- Commercial use requires authorization
-- Contact: azzaz.fodil@gmail.com
+ COMMERCIAL USE:
+- Integration into commercial products/SaaS: 🚫 REQUIRES LICENSE  
+- For-profit company internal use: 🚫 REQUIRES LICENSE
+- Uncertain? Email: azzaz.fodil@gmail.com
 
 CITATION:
 If you use this software in your research, please cite:
 [Your Paper Reference - Coming Soon]
 
+COMMERCIAL LICENSING:
+For commercial licensing inquiries, contact: azzaz.fodil@gmail.com
 
-This license ensures open academic collaboration while protecting commercial rights.
