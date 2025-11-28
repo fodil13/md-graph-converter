@@ -1,6 +1,6 @@
 # Molecular Dynamics Graph Converter
 
-Convert MD simulation frames to graphs compatible with both EquiformerV2 and classic GNN
+Convert MD simulation frames to graphs compatible with both EquiformerV2 and classic Graph Neural Networks (GNN)
 # Universal MD Graph Converter
 
 **The bridge between molecular dynamics and modern graph neural networks**
