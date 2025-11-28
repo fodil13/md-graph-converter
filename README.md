@@ -14,5 +14,5 @@ Convert MD simulation frames into **universal graphs** compatible with **both Eq
 | **Dual Architecture Support** | ✅ EquiformerV2 + Classic GNNs 
 | **13D Feature Engineering** | ✅ Charge, mass, hydrophobicity, etc. 
 | **Non-covalent Edges** | ✅ KD-tree optimized interfaces 
-| **Google Colab Ready** | ✅ One-click running 
+| **Google Colab Ready** | ✅ One-click running (You will still have to adjust specific parameters depending on your simulated system)
 
