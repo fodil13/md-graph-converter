@@ -4,6 +4,7 @@
 Molecular Dynamics Graph Converter
 Copyright (c) 2025 Fodil Azzaz, PhD - All Rights Reserved
 Non-commercial use only
+Commercial? Contact me: azzaz.fodil@gmail.com
 
 Converts MD simulation frames into EquiformerV2-compatible graphs
 with 13D scalar features and non-covalent edge detection.
@@ -23,14 +24,14 @@ from scipy.spatial import cKDTree
 import MDAnalysis as mda
 import torch
 from torch_geometric.data import Data
-from google.colab import files
-from google.colab import drive
+from google.colab import files #these are important if you use the code on google colab and your files stored in google drive
+from google.colab import drive 
 import warnings
 warnings.filterwarnings("ignore")
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# === CONSTANTS === The resnames depends on the force field used (here CHARMM36m, you will have to update it according to your system)
+# === CONSTANTS === ps: The resnames depends on the force field used (here CHARMM36m, you will have to update it according to your system)
 LIPID_RESNAMES = ['POPC', 'CHL1', 'ANE5AC', 'CER160', 'BGLC', 'BGAL', 'BGALNA', 'POPE', 'POPS', 'CHOL']
 WATER_RESNAMES = ['TIP3', 'SOL', 'WAT', 'HOH', 'TIP4P']
 AMINO_ACIDS = ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'HIS', 'ILE',
@@ -61,7 +62,7 @@ def parse_psf_charges_masses(psf_filename):
             if in_atoms and line.strip() and not line.startswith('!'):
                 parts = line.split()
 
-                # YOUR PSF FORMAT: [index, segid, resid, resname, atom_name, atom_type, charge, mass, ...]
+                # YOUR PSF FORMAT: [index, segid, resid, resname, atom_name, atom_type, charge, mass, ...], if you have .gro, the safest is to convert your .gro file into a psf file (as it also contains bond informations)
                 if len(parts) >= 8:
                     resname = parts[3]      # Column 3: resname (POPC)
                     atom_name = parts[4]    # Column 4: atom_name (C15)
@@ -658,6 +659,7 @@ if __name__ == "__main__":
         num_frames=, #total frame you want to convert into graphs
         frame_step= #frames you want to skip
     )
+
 
 
 
