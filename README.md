@@ -6,6 +6,14 @@ Convert MD simulation frames to graphs compatible with both EquiformerV2 and cla
 **The bridge between molecular dynamics and modern graph neural networks**
 
 
+## Usages
+
+The main things you need to change are listed at the end of the code.
+Change the path for your psf/dcd files, your protein/environment selection
+and the number of maximum frame you want to convert into graphs. 
+There is nothing else to change. 
+
+
 ## Why Researchers Choose This Converter
 
 | Feature | Our Converter | 
@@ -30,15 +38,6 @@ Node Features (13 Dimensions)
 
 7. Sidechain indicator
 8-13. Molecular segment encoding (PROA, PROB, GLIP, GLIZ, POPC, CHL1(This is for Charmm36m force field, may vary according to others force field))
-
-## Usages
-'''
-USAGE:
-The main things you need to change are listed at the end of the code.
-Change the path for your psf/dcd files, your protein/environment selection
-and the number of maximum frame you want to convert into graphs. 
-There is nothing else to change. 
-'''   
 
 Edge Features
 
