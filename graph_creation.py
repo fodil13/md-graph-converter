@@ -16,6 +16,14 @@ Original Methodology:
 - Google Colab-optimized pipeline
 """
 
+'''
+USAGE:
+The main things you need to change are listed at the end of the code.
+Change the path for your psf/dcd files, your protein/environment selection
+and the number of maximum frame you want to convert into graphs. 
+There is nothing else to change. 
+'''
+
 # === IMPORTS ===
 import os
 import glob
@@ -30,6 +38,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+
 
 # === CONSTANTS === ps: The resnames depends on the force field used (here CHARMM36m, you will have to update it according to your system)
 LIPID_RESNAMES = ['POPC', 'CHL1', 'ANE5AC', 'CER160', 'BGLC', 'BGAL', 'BGALNA', 'POPE', 'POPS', 'CHOL']
@@ -659,6 +669,7 @@ if __name__ == "__main__":
         num_frames=, #total frame you want to convert into graphs
         frame_step= #frames you want to skip
     )
+
 
 
 
