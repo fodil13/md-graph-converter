@@ -1,0 +1,15 @@
+# Core dependencies
+MDAnalysis>=2.4.0
+torch>=2.0.0
+torch-geometric>=2.3.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional for advanced features
+networkx>=3.0
+tqdm>=4.65.0
+
+# Development
+pytest>=7.0
+black>=23.0
+flake8>=6.0 
