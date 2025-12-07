@@ -11,7 +11,7 @@ Convert MD simulation frames to graphs compatible with both EquiformerV2 and cla
 The main things you need to change are listed at the end of the code.
 Change the path for your psf/dcd files, your protein/environment selection
 and the number of maximum frame you want to convert into graphs. 
-There is nothing else to change. If you have any question, feel free to contact me. 
+There is nothing else to change. **If you have any question, feel free to contact me on my email adress.** 
 
 ## Why Researchers Choose This Converter
 
