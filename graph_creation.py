@@ -46,7 +46,7 @@ LIPID_RESNAMES = ['POPC', 'CHL1', 'ANE5AC', 'CER160', 'BGLC', 'BGAL', 'BGALNA', 
 WATER_RESNAMES = ['TIP3', 'SOL', 'WAT', 'HOH', 'TIP4P']
 AMINO_ACIDS = ['ALA', 'ARG', 'ASN', 'ASP', 'CYS', 'GLN', 'GLU', 'GLY', 'HIS', 'ILE',
                'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRP', 'TYR', 'VAL']
-SEGIDS = ['PROA', 'PROB', 'GLIP', 'GLIZ', 'POPC', 'CHL1']  # CHANGED: PROD → PROB
+SEGIDS = ['PROA', 'PROB', 'GLIP', 'GLIZ', 'POPC', 'CHL1']  
 
 # === FIXED PSF PARSING ===
 def parse_psf_charges_masses(psf_filename):
@@ -669,6 +669,7 @@ if __name__ == "__main__":
         num_frames=, #total frame you want to convert into graphs
         frame_step= #frames you want to skip
     )
+
 
 
 
