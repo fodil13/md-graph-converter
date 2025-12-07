@@ -57,4 +57,7 @@ Built with the following open-source tools:
 
 Run and tested on:
 - Google Colab (cloud platform, free to use) 
-  
+
+ROADMAP:
+Creation of modules
+Increasing the compatibility
