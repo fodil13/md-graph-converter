@@ -59,5 +59,5 @@ Run and tested on:
 - Google Colab (cloud platform, free to use) 
 
 ROADMAP:
--Creation of modules
+-wrapper
 -Increasing the compatibility
