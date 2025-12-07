@@ -655,7 +655,7 @@ def run_equiformerv2_pipeline(psf_filename=None, dcd_filename=None,
 
 # === EXECUTION ===
 if __name__ == "__main__":
-    !pip install -q MDAnalysis torch-geometric scipy
+  
 
     # Your specific files
     PSF_FILENAME = "ionized.psf"    #your psf file path (in this exemple it is ionized.psf)
@@ -669,6 +669,7 @@ if __name__ == "__main__":
         num_frames=, #total frame you want to convert into graphs
         frame_step= #frames you want to skip
     )
+
 
 
 
