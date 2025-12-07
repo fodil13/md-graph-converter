@@ -617,7 +617,7 @@ def run_equiformerv2_pipeline(psf_filename=None, dcd_filename=None,
         return None
 
     # Parse PSF WITH FIXED PARSING
-    print("\n🔧 PARSING PSF FILE (FIXED VERSION)...")
+    print("\n  PARSING PSF FILE (FIXED VERSION)...")
     psf_charges, psf_masses = parse_psf_charges_masses(psf_file)
     psf_bonds = parse_psf_bonds(psf_file)
 
@@ -669,6 +669,7 @@ if __name__ == "__main__":
         num_frames=, #total frame you want to convert into graphs
         frame_step= #frames you want to skip
     )
+
 
 
 
