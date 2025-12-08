@@ -662,13 +662,14 @@ if __name__ == "__main__":
     DCD_FILENAME = "syt2_movie.dcd" #your dcd file path (in this exemple it is syt2_movie.dcd)
 
     graphs = run_equiformerv2_pipeline(
-        psf_filename="your_psffile.psf",
-        dcd_filename="your_dcfile.dcd',
+        psf_filename=PSF_FILENAME,
+        dcd_filename=DCD_FILENAME,
         protein_selection='', #The protein(s) you want to target e.g: 'segid PROA'
         environment_selection='',  # Your specific environment e.g: 'segid CHL1'
         num_frames= value, #total frame you want to convert into graphs
         frame_step= value #frames you want to skip
     )
+
 
 
 
