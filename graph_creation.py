@@ -3,6 +3,7 @@ Molecular Dynamics Graph Converter
 Copyright (c) 2025 Fodil Azzaz, PhD - All Rights Reserved
 Non-commercial use only
 Commercial? Contact me: azzaz.fodil@gmail.com
+Citation: https://doi.org/10.64898/2025.12.09.692808
 
 Converts MD simulation frames into EquiformerV2-compatible graphs
 with 13D scalar features and non-covalent edge detection.
@@ -667,6 +668,7 @@ if __name__ == "__main__":
         num_frames= value, #total frame you want to convert into graphs
         frame_step= value #frames you want to skip
     )
+
 
 
 
