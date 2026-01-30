@@ -1,5 +1,3 @@
-# @title Graph creation code, convert frame from molecular dynamics simulation into Graphs readable - Created by Fodil Azzaz, PhD
-
 """
 Molecular Dynamics Graph Converter
 Copyright (c) 2025 Fodil Azzaz, PhD - All Rights Reserved
@@ -669,6 +667,7 @@ if __name__ == "__main__":
         num_frames= value, #total frame you want to convert into graphs
         frame_step= value #frames you want to skip
     )
+
 
 
 
