@@ -3,18 +3,31 @@
 
 # tags:
   . Python
+
   . molecular dynamics
+  
   . graph neural networks
+  
   . computational biology
+  
   . membrane proteins
+
 # authors:
   - name: Fodil Azzaz
+
     orcid: 0000-0002-2508-2300
+    
     affiliation: 1
+    
 affiliations:
+
   - name: Aix-Marseille Univ, INSERM UA16, Marseille, France
+
+
     index: 1
+    
 date: 11 March 2026
+
 bibliography: paper.bib
 ---
 
