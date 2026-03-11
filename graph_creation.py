@@ -109,7 +109,7 @@ def parse_psf_charges_masses(psf_filename):
             sample_charges = list(charges.values())[:5]
             charge_min = min(sample_charges)
             charge_max = max(sample_charges)
-            print(f"   📊 Charge range: {charge_min:.3f} to {charge_max:.3f}")
+            print(f"   Charge range: {charge_min:.3f} to {charge_max:.3f}")
 
             if charge_min == 0.0 and charge_max == 0.0:
                 print("❌ WARNING: All charges are zero! PSF parsing may have failed.")
@@ -125,7 +125,7 @@ def parse_psf_charges_masses(psf_filename):
 
 def create_fallback_charges_masses():
     """Create reasonable fallback charges when PSF parsing fails"""
-    print("🔄 Creating fallback charges based on atom types...")
+    print(" Creating fallback charges based on atom types...")
 
     charges, masses = {}, {}
 
@@ -670,6 +670,7 @@ if __name__ == "__main__":
         num_frames= value, #total frame you want to convert into graphs
         frame_step= value #frames you want to skip
     )
+
 
 
 
