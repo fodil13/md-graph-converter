@@ -31,7 +31,9 @@ from scipy.spatial import cKDTree
 import MDAnalysis as mda
 import torch
 from torch_geometric.data import Data
-from google.colab import files #these are important if you use the code on google colab and your files stored in google drive
+#these are important if you use the code on google colab and your files stored in google drive
+#if you are not running the code on a google colab environment, please comment "from google.colab import files" and "from google.colab import drive"
+from google.colab import files 
 from google.colab import drive 
 import warnings
 warnings.filterwarnings("ignore")
@@ -668,6 +670,7 @@ if __name__ == "__main__":
         num_frames= value, #total frame you want to convert into graphs
         frame_step= value #frames you want to skip
     )
+
 
 
 
